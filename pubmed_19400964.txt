@@ -1,0 +1,88 @@
+Title: 19400964
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/19400964/?format=pubmed
+
+Markdown Content:
+PMID- 19400964
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20090722
+LR  - 20211020
+IS  - 1472-6920 (Electronic)
+IS  - 1472-6920 (Linking)
+VI  - 9
+DP  - 2009 Apr 28
+TI  - Interrater reliability of the mind map assessment rubric in a cohort of medical 
+      students.
+PG  - 19
+LID - 10.1186/1472-6920-9-19 [doi]
+AB  - BACKGROUND: Learning strategies are thinking tools that students can use to 
+      actively acquire information. Examples of learning strategies include mnemonics, 
+      charts, and maps. One strategy that may help students master the tsunami of 
+      information presented in medical school is the mind map learning strategy. 
+      Currently, there is no valid and reliable rubric to grade mind maps and this may 
+      contribute to their underutilization in medicine. Because concept maps and mind 
+      maps engage learners similarly at a metacognitive level, a valid and reliable 
+      concept map assessment scoring system was adapted to form the mind map assessment 
+      rubric (MMAR). The MMAR can assess mind map depth based upon concept-links, 
+      cross-links, hierarchies, examples, pictures, and colors. The purpose of this 
+      study was to examine interrater reliability of the MMAR. METHODS: This 
+      exploratory study was conducted at a US medical school as part of a larger 
+      investigation on learning strategies. Sixty-six (N = 66) first-year medical 
+      students were given a 394-word text passage followed by a 30-minute presentation 
+      on mind mapping. After the presentation, subjects were again given the text 
+      passage and instructed to create mind maps based upon the passage. The mind maps 
+      were collected and independently scored using the MMAR by 3 examiners. Interrater 
+      reliability was measured using the intraclass correlation coefficient (ICC) 
+      statistic. Statistics were calculated using SPSS version 12.0 (Chicago, IL). 
+      RESULTS: Analysis of the mind maps revealed the following: concept-links ICC = 
+      .05 (95% CI, -.42 to .38), cross-links ICC = .58 (95% CI, .37 to .73), 
+      hierarchies ICC = .23 (95% CI, -.15 to .50), examples ICC = .53 (95% CI, .29 to 
+      .69), pictures ICC = .86 (95% CI, .79 to .91), colors ICC = .73 (95% CI, .59 to 
+      .82), and total score ICC = .86 (95% CI, .79 to .91). CONCLUSION: The high ICC 
+      value for total mind map score indicates strong MMAR interrater reliability. 
+      Pictures and colors demonstrated moderate to strong interrater reliability. We 
+      conclude that the MMAR may be a valid and reliable tool to assess mind maps in 
+      medicine. However, further research on the validity and reliability of the MMAR 
+      is necessary.
+FAU - D'Antoni, Anthony V
+AU  - D'Antoni AV
+AD  - Department of Graduate Programs in Health Sciences, School of Health and Medical 
+      Sciences, Seton Hall University, South Orange, NJ 07079, USA. avdantoni@si.rr.com
+FAU - Zipp, Genevieve Pinto
+AU  - Zipp GP
+FAU - Olson, Valerie G
+AU  - Olson VG
+LA  - eng
+PT  - Journal Article
+DEP - 20090428
+PL  - England
+TA  - BMC Med Educ
+JT  - BMC medical education
+JID - 101088679
+SB  - IM
+MH  - Adult
+MH  - Female
+MH  - Humans
+MH  - *Learning
+MH  - Male
+MH  - Mental Recall
+MH  - New England
+MH  - *Reproducibility of Results
+MH  - *Students, Medical
+MH  - Young Adult
+PMC - PMC2683832
+EDAT- 2009/04/30 09:00
+MHDA- 2009/07/23 09:00
+PMCR- 2009/04/28
+CRDT- 2009/04/30 09:00
+PHST- 2008/12/23 00:00 [received]
+PHST- 2009/04/28 00:00 [accepted]
+PHST- 2009/04/30 09:00 [entrez]
+PHST- 2009/04/30 09:00 [pubmed]
+PHST- 2009/07/23 09:00 [medline]
+PHST- 2009/04/28 00:00 [pmc-release]
+AID - 1472-6920-9-19 [pii]
+AID - 10.1186/1472-6920-9-19 [doi]
+PST - epublish
+SO  - BMC Med Educ. 2009 Apr 28;9:19. doi: 10.1186/1472-6920-9-19.

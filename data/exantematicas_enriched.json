@@ -1,0 +1,1836 @@
+[
+  {
+    "id": "RM-2014-01",
+    "source_exam": "RM",
+    "year": 2014,
+    "number": 1,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Rubéola",
+    "focus": "Características clínicas",
+    "stem": "La afección cutánea que se caracteriza por exantema, pequeñas máculas rosadas no pruriginosas que coalescen, ganglios cervicales y suboccipitales palpables. Corresponde a:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eritema tóxico",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Miliaria rubra",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Sarampión",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "B",
+    "answer_text": "Rubéola",
+    "clinical_entities": [
+      {
+        "type": "sign",
+        "value": "adenopatias_cervicales",
+        "text_span": "ganglios cervicales",
+        "attributes": {
+          "location": "cervical"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "prurito",
+        "text_span": "pruriginos",
+        "attributes": {
+          "category": "piel"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Características clínicas",
+      "Rubéola"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 1 (RM 2014):"
+    }
+  },
+  {
+    "id": "RM-2013-02",
+    "source_exam": "RM",
+    "year": 2013,
+    "number": 2,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Presentación clínica",
+    "stem": "Niño de 11 meses con eritema morbiliforme eritematoso en cara tronco, brazos, presenta fiebre de 39 grados desde hace 4 días tos exigente secreciones amarillentas en conjuntivas y fosas nasales, eritema faríngeo y escaso moco en ambos hemitórax\n¿Cuál es el agente causal más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adenovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Parvovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Neumococo",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Virus del sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Virus influenza AH1N1",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "D",
+    "answer_text": "Virus del sarampión",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "tos",
+        "text_span": "tos exigente",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "conjuntivitis",
+        "text_span": "conjuntivas",
+        "attributes": {
+          "system": "ocular"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "4 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "4"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clínica",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 2 (RM 2013):"
+    }
+  },
+  {
+    "id": "RM-2013-03",
+    "source_exam": "RM",
+    "year": 2013,
+    "number": 3,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Enfermedad mano-pie-boca",
+    "focus": "Coxsackie virus",
+    "stem": "Lactante de 10 meses presenta erupción febril, congestión y eritema faríngeo, lesiones vesiculares en lengua, paladar y palmas de manos y pies\n¿cuál es el agente causal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adenovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Coxsackie virus",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Herpes virus",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Rinovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "VSR",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "B",
+    "answer_text": "Coxsackie virus",
+    "clinical_entities": [
+      {
+        "type": "sign",
+        "value": "lesiones_vesiculares",
+        "text_span": "lesiones vesiculares",
+        "attributes": {
+          "category": "rash"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "palmas_plantas",
+        "text_span": "palmas de manos y pies",
+        "attributes": {
+          "location": "acral"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Coxsackie virus",
+      "Enfermedad mano-pie-boca"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 3 (RM 2013):"
+    }
+  },
+  {
+    "id": "RM-2013-04",
+    "source_exam": "RM",
+    "year": 2013,
+    "number": 4,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Varicela",
+    "focus": "Características de las lesiones",
+    "stem": "La lesión vesicular del exantema de la varicela se caracteriza por ser:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arracimada",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Globular",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Umbilicada",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Pápulovesicular",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Hemorrágica",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Umbilicada",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Características de las lesiones",
+      "Varicela"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 4 (RM 2013):"
+    }
+  },
+  {
+    "id": "RM-2012-05",
+    "source_exam": "RM",
+    "year": 2012,
+    "number": 5,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Infecciones congénitas",
+    "focus": "Rubéola congénita",
+    "stem": "¿Qué infección congénita produce en un neonato microcefalia, ausencia de reflejo fotomotor e indiferencia al estímulo sonoro?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rubeola",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Toxoplasmosis",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Herpes simple",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Citomegalovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Sífilis",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Rubeola",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Infecciones congénitas",
+      "Rubéola congénita"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 5 (RM 2012):"
+    }
+  },
+  {
+    "id": "RM-2012-06",
+    "source_exam": "RM",
+    "year": 2012,
+    "number": 6,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Varicela",
+    "focus": "Polimorfismo lesional",
+    "stem": "Niño de 5 años con fiebre de 2 días de evolución, presenta lesiones vesiculares pruriginosas en cuero cabelludo, algunas lesiones eritematosas en tronco; pústulas y costras en extremidades.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impétigo",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Herpes simple",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Sarampión",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Varicela",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "lesiones_vesiculares",
+        "text_span": "lesiones vesiculares",
+        "attributes": {
+          "category": "rash"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "prurito",
+        "text_span": "pruriginos",
+        "attributes": {
+          "category": "piel"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "2 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "2"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Polimorfismo lesional",
+      "Varicela"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 6 (RM 2012):"
+    }
+  },
+  {
+    "id": "RM-2014-07",
+    "source_exam": "RM",
+    "year": 2014,
+    "number": 7,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Exantema súbito",
+    "focus": "Patrón febril característico",
+    "stem": "Lactante de 12 meses, hace 6 días inicia con fiebre de 38-39 °C de dos días de duración con coriza y malestar general. Al tercer día presentó exantema maculopapular en cara y luego se generaliza, desapareciendo 3 días después.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rubeola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "E",
+    "answer_text": "Exantema súbito",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "coriza",
+        "text_span": "coriza",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "exantema_morbilliforme",
+        "text_span": "exantema maculopapular",
+        "attributes": {
+          "category": "rash"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "6 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "6"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "3 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "3"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Exantema súbito",
+      "Patrón febril característico"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 7 (RM 2014):"
+    }
+  },
+  {
+    "id": "RM-2016-08",
+    "source_exam": "RM",
+    "year": 2016,
+    "number": 8,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Complicaciones de varicela",
+    "focus": "Infección bacteriana secundaria",
+    "stem": "¿Cuál es la complicación más frecuente de la varicela?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neumonía",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Encefalitis",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Pancreatitis",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Glomerulonefritis",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Infección de la piel",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "E",
+    "answer_text": "Infección de la piel",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Complicaciones de varicela",
+      "Infección bacteriana secundaria"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 8 (RM 2016):"
+    }
+  },
+  {
+    "id": "RM-2010-09",
+    "source_exam": "RM",
+    "year": 2010,
+    "number": 9,
+    "domain": "Respiratorio",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Mecanismo de transmisión",
+    "stem": "¿Cuál es el mecanismo de trasmisión del sarampión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gotitas de Píluger",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Por contacto directo",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Por somites",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Por agua",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Por alimentos",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Gotitas de Píluger",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Mecanismo de transmisión",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 9 (RM 2010):"
+    }
+  },
+  {
+    "id": "RM-2010-10",
+    "source_exam": "RM",
+    "year": 2010,
+    "number": 10,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Escarlatina",
+    "focus": "Presentación clínica",
+    "stem": "Niño de 6 años, con fiebre de 39°C y dolor faríngeo desde hace 24 horas, luego del cual presenta lesiones maculopapulares eritematosas en pliegues inguinales y axilares, y palidez perioral.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Megaloeritema",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Escarlatina",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre de 39°C",
+        "attributes": {
+          "category": "sistemico"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Escarlatina",
+      "Presentación clínica"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 10 (RM 2010):"
+    }
+  },
+  {
+    "id": "RM-2023-11",
+    "source_exam": "RM",
+    "year": 2023,
+    "number": 11,
+    "domain": "Infeccioso",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Presentación clínica",
+    "stem": "Niño de 2 años es traído por cuadro que inició con rinorrea, inyección conjuntival, fotofobia, fiebre de 39°C y tos seca exigente; se añade una erupción máculo papular rojiza en tórax, extremidades hasta planta de pies. Antecedente: procesos infecciosos a repetición, lo cual ha postergado el cumplimiento de programa de inmunizaciones.\n¿Cuál es el diagnóstico probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Sarampión",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre de 39°C",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "tos",
+        "text_span": "tos seca",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "conjuntivitis",
+        "text_span": "conjuntiva",
+        "attributes": {
+          "system": "ocular"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clínica",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 11 (RM 2023):"
+    }
+  },
+  {
+    "id": "RM-2022-12",
+    "source_exam": "RM",
+    "year": 2022,
+    "number": 12,
+    "domain": "Infeccioso",
+    "topic": "Exantemáticas",
+    "subtopic": "Varicela",
+    "focus": "Presentación clínica",
+    "stem": "Lactante mujer de 10 meses, presenta hace 2 días fiebre de 39°C, llanto intenso y rechazo a la lactancia; hace un día erupción en cara y cuerpo. Examen: T° 39°C, FC 124X', FR 34X'; pápulas eritematosas, vesícula, algunas costras en cara, cuello cabelludo, tronco y zona proximal de las extremidades; lesiones ulceradas en la mucosa orofaríngea y vagina.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Roseola infantil",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Viruela simia",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Rickettsiosis exantemática",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Varicela",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre de 39°C",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "2 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "2"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clínica",
+      "Varicela"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 12 (RM 2022):"
+    }
+  },
+  {
+    "id": "RM-2022-13",
+    "source_exam": "RM",
+    "year": 2022,
+    "number": 13,
+    "domain": "Infeccioso",
+    "topic": "Exantemáticas",
+    "subtopic": "Rubéola",
+    "focus": "Presentación clínica",
+    "stem": "Niña de 2 años, presenta fiebre hace dos días, dolor faríngeo, anorexia, es traída por presentar erupción generalizada. Examen: FC 90X', FR 25X', T° 37°C, eritema en la cara y el cuello, pequeñas máculas irregulares, rosadas, que confluyen y se diseminan en tronco y extremidades; orofaringe con lesiones rosadas y petequias en paladar blando; adenopatías suboccipitales y retroauriculares de 1 cm de diámetro, dolorosas.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Kawasaki",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Mononucleosis",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Rubéola",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "adenopatias",
+        "text_span": "adenopat",
+        "attributes": {
+          "system": "linfático"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clínica",
+      "Rubéola"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 13 (RM 2022):"
+    }
+  },
+  {
+    "id": "RM-2022-14",
+    "source_exam": "RM",
+    "year": 2022,
+    "number": 14,
+    "domain": "Infeccioso",
+    "topic": "Exantemáticas",
+    "subtopic": "Escarlatina",
+    "focus": "Presentación clínica",
+    "stem": "Niño de 4 años, presenta erupción difusa, eritematosa papular que inició en el cuello y se extendió a tronco y extremidades, siendo más intenso en los pliegues de codos, axilas e ingles, piel áspera al tacto, mejillas eritematosas y palidez alrededor de la boca; la lengua presenta papilar engrosadas con aspecto aframbuesado.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Kawasaki",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Mononucleosis",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Escarlatina",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Escarlatina",
+      "Presentación clínica"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 14 (RM 2022):"
+    }
+  },
+  {
+    "id": "RM-2022-15",
+    "source_exam": "RM",
+    "year": 2022,
+    "number": 15,
+    "domain": "Infeccioso",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Presentación complicada",
+    "stem": "Niño de 4 años con síntomas catarrales y fiebre desde hace 5 días, es traído por tos y dificultad respiratoria. Examen: irritable, febril, rinorrea blanquecina, adenopatía cervical bilateral, exantema eritemato máculo papular en cara, tronco y extremidades, ojos con eritema conjuntival y secreción viscosa bilateral, mucosa oral con eritema en paladar y encías. MV presente, subcrepitos y roncantes diseminados.\n¿En qué diagnóstico sospecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Rubeola",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Roséola infantil",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Sarampión",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "tos",
+        "text_span": "tos",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "conjuntivitis",
+        "text_span": "conjuntiva",
+        "attributes": {
+          "system": "ocular"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "adenopatias",
+        "text_span": "adenopat",
+        "attributes": {
+          "system": "linfático"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "5 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "5"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación complicada",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 15 (RM 2022):"
+    }
+  },
+  {
+    "id": "RM-2024-16",
+    "source_exam": "RM",
+    "year": 2024,
+    "number": 16,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Escarlatina",
+    "focus": "Diagnóstico diferencial",
+    "stem": "Escolar de 8 años con síndrome de Down, hace 4 días presenta lesiones eritemato pruriginosas en piel que en algunas zonas son descamativas. Diagnosticado de urticaria persistente, recibe antihistamínicos, sin mejoría clínica. Examen: faringe eritematosa, enantema petequial en paladar blando, adenopatía cervical; piel eritema difuso con discreta descamación en flexuras.\n¿Cuál es su diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escarlatina estafilocócica",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Enfermedad de Kawasaki",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Mononucleosis infecciosa",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Escarlatina estreptocócica",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "D",
+    "answer_text": "Escarlatina estreptocócica",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "prurito",
+        "text_span": "pruriginos",
+        "attributes": {
+          "category": "piel"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "adenopatias",
+        "text_span": "adenopat",
+        "attributes": {
+          "system": "linfático"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "4 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "4"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Diagnóstico diferencial",
+      "Escarlatina"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 16 (RM 2024):"
+    }
+  },
+  {
+    "id": "RM-2021-17",
+    "source_exam": "RM",
+    "year": 2021,
+    "number": 17,
+    "domain": "Neurológico",
+    "topic": "Exantemáticas",
+    "subtopic": "Complicaciones de varicela",
+    "focus": "Vasculitis post-varicela",
+    "stem": "Pre escolar de 3 años, traído por presentar cefalea desde hace una semana y pérdida súbita de la visión. Antecedente de haber presentado cuadro de varicela hace 10 días. Laboratorio: títulos altos de anticuerpos anti proteína neural.\n¿Cuál es la actitud terapéutica inmediata de elección?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inmunoglobulina",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Aciclovir",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Corticoides orales",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Ciclofosfamida",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Ganciclovir",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Inmunoglobulina",
+    "clinical_entities": [
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "10 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "10"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Complicaciones de varicela",
+      "Vasculitis post-varicela"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 17 (RM 2021):"
+    }
+  },
+  {
+    "id": "RM-2021-18",
+    "source_exam": "RM",
+    "year": 2021,
+    "number": 18,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Exantema súbito",
+    "focus": "Presentación clásica",
+    "stem": "Niña de 10 meses, traída a emergencia por haber presentado convulsión febril; madre refiere que desde hace 3 días ha estado con fiebre alta de 39 y 40°C que no remitía con antipiréticos, hiporexia e irritabilidad. Examen: T°: 37.5°C, exantema máculopapular rosado poco confluente en el tronco y extremidades superiores.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Sarampión",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Exantema súbito",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "3 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "3"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Exantema súbito",
+      "Presentación clásica"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 18 (RM 2021):"
+    }
+  },
+  {
+    "id": "RM-2021-19",
+    "source_exam": "RM",
+    "year": 2021,
+    "number": 19,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Signo patognomónico",
+    "stem": "¿Cuál de las siguientes manifestaciones es patognomónica del sarampión?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tos perruna",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Conjuntivitis",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Fiebre alta",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Exantema máculopapular",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Manchas de Koplik",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "E",
+    "answer_text": "Manchas de Koplik",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Sarampión",
+      "Signo patognomónico"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 19 (RM 2021):"
+    }
+  },
+  {
+    "id": "RM-2020-20",
+    "source_exam": "RM",
+    "year": 2020,
+    "number": 20,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Enfermedad pie-mano-boca",
+    "focus": "Presentación típica",
+    "stem": "Niño de 6 años, traído a consulta por fiebre de 3 días de evolución, con dolor a la deglución. Los datos más relevantes de la exploración física son lesiones erosivas en el paladar y vesículas intraepidérmicas no agrupadas en palmas y plantas.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enfermedad de pie-mano-boca",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rickettsiosis",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Eritema multiforme",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Síndrome de Steven - Jonhson",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Faringitis aguda",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Enfermedad de pie-mano-boca",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "3 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "3"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Enfermedad pie-mano-boca",
+      "Presentación típica"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 20 (RM 2020):"
+    }
+  },
+  {
+    "id": "RM-2024-21",
+    "source_exam": "RM",
+    "year": 2024,
+    "number": 21,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Eritema infeccioso",
+    "focus": "Agente causal",
+    "stem": "Niño de 18 meses, presenta erupción eritematosa macular difusa que inició en cara dando aspecto de \"mejillas abofeteadas\", extendida al tronco y parte proximal de las extremidades y que progresivamente dan un aspecto reticulado, en encaje, respetando palmas y plantas.\n¿Cuál es el agente causal más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parvovirus B19",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Herpes Zoster",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Herpes virus 6",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Paramixovirus",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Parvovirus B19",
+    "clinical_entities": [
+      {
+        "type": "sign",
+        "value": "rash_reticulado",
+        "text_span": "aspecto reticulado",
+        "attributes": {
+          "category": "rash"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Agente causal",
+      "Eritema infeccioso"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 21 (RM 2024):"
+    }
+  },
+  {
+    "id": "RM-2020-22",
+    "source_exam": "RM",
+    "year": 2020,
+    "number": 22,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Escarlatina",
+    "focus": "Signos característicos",
+    "stem": "Niño de 7 años, presenta fiebre, odinofagia y aparición de un exantema en piel de gallina con líneas de Pastia.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Erisipela",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Mononucleosis",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Síndrome de piel escaldada",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Escarlatina",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Escarlatina",
+      "Signos característicos"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 22 (RM 2020):"
+    }
+  },
+  {
+    "id": "RM-2019-23",
+    "source_exam": "RM",
+    "year": 2019,
+    "number": 23,
+    "domain": "Neurológico",
+    "topic": "Exantemáticas",
+    "subtopic": "Complicaciones de varicela",
+    "focus": "Ataxia cerebelosa",
+    "stem": "Preescolar de 4 años que es llevado a emergencia por dificultad para caminar y para hablar. Examen: trastorno de la marcha, disartria y nisfagmo. Madre señala que una semana antes su hijo presentó una enfermedad eruptiva.\n¿En qué enfermedad eruptiva sospecha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eritema tóxico",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rubéola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Roséola",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Escarlatina",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "D",
+    "answer_text": "Varicela",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Ataxia cerebelosa",
+      "Complicaciones de varicela"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 23 (RM 2019):"
+    }
+  },
+  {
+    "id": "RM-2019-24",
+    "source_exam": "RM",
+    "year": 2019,
+    "number": 24,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Eritema infeccioso",
+    "focus": "Características clínicas",
+    "stem": "Niño de 4 años, presenta febrícula, cefalea, rinorrea y luego de dos días, eritema en cara que se extiende con erupción papuloeritematosa difusa en tronco y zona proximal de extremidades, que aclara pronto, dando un aspecto reticulado\n¿Cuál es el agente etiológico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coronavirus",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Herpes zoster",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Parvovirus B19",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Paramixovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Herpes Virus 6",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "C",
+    "answer_text": "Parvovirus B19",
+    "clinical_entities": [
+      {
+        "type": "sign",
+        "value": "rash_reticulado",
+        "text_span": "aspecto reticulado",
+        "attributes": {
+          "category": "rash"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Características clínicas",
+      "Eritema infeccioso"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 24 (RM 2019):"
+    }
+  },
+  {
+    "id": "RM-2018-25",
+    "source_exam": "RM",
+    "year": 2018,
+    "number": 25,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Roséola",
+    "focus": "Presentación clásica",
+    "stem": "Lactante de 11 meses, presenta durante 3 días fiebre de 39°C, que cede espontáneamente, presentando luego erupción máculopapular rosada no pruriginosa en tronco, que se extiende a cara y extremidades.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Roséola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Rubéola",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "B",
+    "answer_text": "Roséola",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre de 39°C",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "prurito",
+        "text_span": "pruriginos",
+        "attributes": {
+          "category": "piel"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "3 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "3"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clásica",
+      "Roséola"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 25 (RM 2018):"
+    }
+  },
+  {
+    "id": "RM-2017-26",
+    "source_exam": "RM",
+    "year": 2017,
+    "number": 26,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Cuadro clínico completo",
+    "stem": "Lactante de 10 meses de edad con 6 días de enfermedad, que cursa con fiebre alta e irritabilidad, tos intensa y exigente, coriza, ojos con eritema y secreción bilateral, y exantema eritematomacular generalizado.\n¿Cuál es el diagnóstico?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Exantema súbito",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Eritema infeccioso",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Rubéola",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "A",
+    "answer_text": "Sarampión",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "tos",
+        "text_span": "tos",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "coriza",
+        "text_span": "coriza",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "6 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "6"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Cuadro clínico completo",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 26 (RM 2017):"
+    }
+  },
+  {
+    "id": "RM-2015-27",
+    "source_exam": "RM",
+    "year": 2015,
+    "number": 27,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Presentación clínica",
+    "stem": "Lactante de 11 meses de edad con fiebre desde hace 4 días, se agrega tos moderada y secreciones amarillentas en fosas nasales y conjuntivas, exantema morbiliforme eritematoso en cara, tronco, brazos; eritema faríngeo y escasos roncantes en campos pulmonares.\n¿Cuál es el agente causal probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adenovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Parvovirus",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Estreptococo pneumoniae",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Virus del sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Virus influenzae AH1N1",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "D",
+    "answer_text": "Virus del sarampión",
+    "clinical_entities": [
+      {
+        "type": "symptom",
+        "value": "fiebre",
+        "text_span": "fiebre",
+        "attributes": {
+          "category": "sistemico"
+        }
+      },
+      {
+        "type": "symptom",
+        "value": "tos",
+        "text_span": "tos",
+        "attributes": {
+          "system": "respiratorio"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "conjuntivitis",
+        "text_span": "conjuntivas",
+        "attributes": {
+          "system": "ocular"
+        }
+      },
+      {
+        "type": "sign",
+        "value": "exantema_morbilliforme",
+        "text_span": "exantema morbiliforme",
+        "attributes": {
+          "category": "rash"
+        }
+      },
+      {
+        "type": "timeline",
+        "value": "periodo_timeline",
+        "text_span": "4 días",
+        "attributes": {
+          "unit": "dias",
+          "value": "4"
+        }
+      }
+    ],
+    "reasoning_tags": [
+      "Presentación clínica",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 27 (RM 2015):"
+    }
+  },
+  {
+    "id": "RM-2015-28",
+    "source_exam": "RM",
+    "year": 2015,
+    "number": 28,
+    "domain": "Piel",
+    "topic": "Exantemáticas",
+    "subtopic": "Escarlatina",
+    "focus": "Evolución temporal",
+    "stem": "Escolar de 6 años, con faringoamigdalitis aguda, después de 24 horas presenta exantema micropapular rojizo en cuello y tronco, que se extiende a extremidades, predominando en los pliegues, región inguinal y codo.\n¿Cuál es el diagnóstico más probable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarampión",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "Rubeola",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "Varicela",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "Escarlatina",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "Intoxicación medicamentosa",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "D",
+    "answer_text": "Escarlatina",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Escarlatina",
+      "Evolución temporal"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 28 (RM 2015):"
+    }
+  },
+  {
+    "id": "RM-2015-29",
+    "source_exam": "RM",
+    "year": 2015,
+    "number": 29,
+    "domain": "Multisistémico",
+    "topic": "Exantemáticas",
+    "subtopic": "Sarampión",
+    "focus": "Periodo de incubación",
+    "stem": "El periodo de incubación del sarampión es de...días",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 - 21",
+        "linked_entity": null
+      },
+      {
+        "id": "B",
+        "text": "> 14",
+        "linked_entity": null
+      },
+      {
+        "id": "C",
+        "text": "1 – 3",
+        "linked_entity": null
+      },
+      {
+        "id": "D",
+        "text": "3 - 7",
+        "linked_entity": null
+      },
+      {
+        "id": "E",
+        "text": "8 – 12",
+        "linked_entity": null
+      }
+    ],
+    "answer_key": "E",
+    "answer_text": "8 – 12",
+    "clinical_entities": [],
+    "reasoning_tags": [
+      "Periodo de incubación",
+      "Sarampión"
+    ],
+    "metadata": {
+      "raw_header": "Pregunta 29 (RM 2015):"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+export type NodeData = {
+  label: string;
+  description?: string;
+  level?: number;
+  color?: string;
+  fontSize?: number;
+  customColor?: boolean;
+  isEditing?: boolean;
+  fillColor?: string;
+  borderColor?: string;
+  borderWidth?: number;
+  fontFamily?: string;
+  fontWeight?: 'normal' | 'bold';
+  fontStyle?: 'normal' | 'italic';
+  textDecoration?: 'none' | 'underline';
+  highlightColor?: string;
+  bodyWidth?: number;
+  isFloating?: boolean;
+  paletteId?: string;
+  textColor?: string;
+  flashcardMode?: boolean;
+  isRevealed?: boolean;
+  branchKey?: string;
+  branchColor?: string;
+  childCount?: number;
+  collapsedChildrenCount?: number;
+  isCollapsed?: boolean;
+};

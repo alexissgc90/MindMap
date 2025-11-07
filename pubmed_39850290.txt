@@ -1,0 +1,88 @@
+Title: 39850290
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/39850290/?format=pubmed
+
+Markdown Content:
+PMID- 39850290
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20250129
+IS  - 2277-9531 (Print)
+IS  - 2319-6440 (Electronic)
+IS  - 2277-9531 (Linking)
+VI  - 13
+DP  - 2024
+TI  - Using the mind map method in medical education, its advantages and challenges: A 
+      systematic review.
+PG  - 483
+LID - 10.4103/jehp.jehp_1323_23 [doi]
+LID - 483
+AB  - Mind mapping stands as a contemporary approach to education, introducing an 
+      innovative means of teaching and learning. In current times, this technique is 
+      embraced due to its ability to enhance the learning and retention process. This 
+      investigation explored the imperative nature of adopting novel educational 
+      methodologies such as mind mapping, while also examining its benefits and 
+      constraints. During the timeframe spanning from 2000 to 2023, the terms "mind 
+      map," "medical education," and "thinking skills" were employed as keywords to 
+      conduct searches across nine databases: PubMed, Cochrane, Web of Sciences, 
+      Science Direct, ProQuest, CNHL, Springer, Wiley, and Google Scholar. After 
+      conducting searches across the aforementioned databases, a total of 63 articles 
+      were retrieved. Following the elimination of duplicated entries and articles that 
+      did not align with the predefined inclusion criteria, the examination focused on 
+      10 relevant articles. This analysis adhered to the guidelines outlined by the 
+      Preferred Reporting Items for Systematic Reviews and Meta-Analysis (PRISMA) 
+      protocol, available at www.prisma-statement.org. The examination revealed a 
+      multitude of notable advantages associated with the implementation of mind maps 
+      which are classified into three groups (Enhancing Memory and Comprehension, 
+      Fostering Intellectual Growth, Streamlining Learning and Teaching). Additionally, 
+      two challenges of the studies were mentioned. Considering the positive ratio of 
+      merits to challenges, it is anticipated that this educational methodology will be 
+      increasingly incorporated into medical education, owing to its paramount 
+      importance and potential.
+CI  - Copyright: © 2024 Journal of Education and Health Promotion.
+FAU - Sajadi, Atiyeh Sadat
+AU  - Sajadi AS
+AD  - Department of Anesthesia Technology, Master of Science in Anesthesia Education, 
+      Iran University of Medical Sciences, Tehran, Iran.
+FAU - Babajani, Alireza
+AU  - Babajani A
+AD  - Department of Anesthesia Technology, Master of Science in Anesthesia Education, 
+      Iran University of Medical Sciences, Tehran, Iran.
+FAU - Maroufi, Shahnam Sedigh
+AU  - Maroufi SS
+AD  - Department of Anesthesia Technology MSc Anesthesia, PhD in Medical Education, 
+      Iran University of Medical Sciences, Tehran, Iran.
+FAU - Sarraf, Nazanin
+AU  - Sarraf N
+AD  - Department of Operating Room, Master of Science in Operating Room, Iran 
+      University of Medical Sciences, Tehran, Iran.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20241228
+PL  - India
+TA  - J Educ Health Promot
+JT  - Journal of education and health promotion
+JID - 101593794
+PMC - PMC11756665
+OTO - NOTNLM
+OT  - Education
+OT  - medical
+OT  - mind map
+OT  - thinking skill
+COIS- There are no conflicts of interest.
+EDAT- 2025/01/24 06:26
+MHDA- 2025/01/24 06:27
+PMCR- 2024/12/28
+CRDT- 2025/01/24 04:17
+PHST- 2023/08/22 00:00 [received]
+PHST- 2023/11/25 00:00 [accepted]
+PHST- 2025/01/24 06:27 [medline]
+PHST- 2025/01/24 06:26 [pubmed]
+PHST- 2025/01/24 04:17 [entrez]
+PHST- 2024/12/28 00:00 [pmc-release]
+AID - JEHP-13-483 [pii]
+AID - 10.4103/jehp.jehp_1323_23 [doi]
+PST - epublish
+SO  - J Educ Health Promot. 2024 Dec 28;13:483. doi: 10.4103/jehp.jehp_1323_23. 
+      eCollection 2024.

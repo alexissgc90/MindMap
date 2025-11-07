@@ -1,0 +1,2469 @@
+{
+  "global": {
+    "id": "XLmCPjEAAEQA3N9n",
+    "uid": null,
+    "url": null,
+    "type": "global",
+    "href": "https://mindnode.cdn.prismic.io/api/v2/documents/search?ref=aPolTxIAACcARqj7&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22XLmCPjEAAEQA3N9n%22%29+%5D%5D",
+    "tags": [],
+    "first_publication_date": "2019-04-19T08:10:46+0000",
+    "last_publication_date": "2025-09-24T08:21:08+0000",
+    "slugs": [
+      "global"
+    ],
+    "linked_documents": [],
+    "lang": "en-us",
+    "alternate_languages": [],
+    "data": {
+      "site_title": [
+        {
+          "type": "heading1",
+          "text": "MindNode",
+          "spans": []
+        }
+      ],
+      "share_image": {
+        "dimensions": {
+          "width": 1200,
+          "height": 630
+        },
+        "alt": "MindNode icon in center, with iPad, iPhone, Mac and Apple Vision Pro on the side.",
+        "copyright": null,
+        "url": "https://images.prismic.io/mindnode/Z44h7pbqstJ99oMd_OGImage.png?auto=format,compress&rect=0,0,1200,630&w=1200&h=630",
+        "id": "Z44h7pbqstJ99oMd",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "general_share_text": "Mind mapping and outlining for Mac, iPhone, iPad and Apple Vision Pro.",
+      "ios_app_store_link": {
+        "link_type": "Web",
+        "key": "ebb7d2c6-4f08-4740-9857-2cfc2e776d9c",
+        "url": "https://apps.apple.com/app/apple-store/id1218718027?pt=14265&ct=web-dl&mt=8",
+        "target": "_blank"
+      },
+      "mac_app_store_link": {
+        "link_type": "Web",
+        "key": "1b999bff-042c-4249-bc01-31e073249ad9",
+        "url": "https://apps.apple.com/app/apple-store/id1289197285?pt=14265&ct=web-dl&mt=8",
+        "target": "_blank"
+      },
+      "app_id": "1218718027",
+      "email_consent_text": [
+        {
+          "type": "paragraph",
+          "text": "By clicking \"Subscribe,\" you consent to receive our newsletter and to the respective processing of your Personal Data. After registration, you will receive an email to confirm your registration. Please do not subscribe to the newsletter if you do not wish to receive our newsletter. You can unsubscribe from the newsletter and withdraw your consent with effect for the future at any time. See our privacy information for all details.",
+          "spans": [
+            {
+              "start": 397,
+              "end": 416,
+              "type": "hyperlink",
+              "data": {
+                "link_type": "Web",
+                "url": "https://mindnode.com/privacy",
+                "target": "_self"
+              }
+            }
+          ],
+          "direction": "ltr"
+        }
+      ],
+      "newsletter_intro": [
+        {
+          "type": "paragraph",
+          "text": "The latest MindNode news, articles, and resources, sent straight to your inbox every month.",
+          "spans": []
+        }
+      ],
+      "newsletter_checkbox_text": [
+        {
+          "type": "paragraph",
+          "text": "I've read and accept the Privacy Policy.",
+          "spans": [
+            {
+              "start": 25,
+              "end": 39,
+              "type": "hyperlink",
+              "data": {
+                "id": "XNBB5DEAAEEAQHWs",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "privacy-policy",
+                "first_publication_date": "2019-05-06T14:17:11+0000",
+                "last_publication_date": "2024-11-25T10:31:00+0000",
+                "uid": "privacy",
+                "link_type": "Document",
+                "isBroken": false
+              }
+            }
+          ]
+        }
+      ],
+      "email_course_intro": [
+        {
+          "type": "paragraph",
+          "text": "Sign up for our newsletter and receive our email course with 6 emails over the course of 2 weeks.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "email_course_checkbox_text": [
+        {
+          "type": "paragraph",
+          "text": "I've read and accept the Privacy Policy.",
+          "spans": [
+            {
+              "start": 25,
+              "end": 39,
+              "type": "hyperlink",
+              "data": {
+                "id": "XNBB5DEAAEEAQHWs",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "privacy-policy",
+                "first_publication_date": "2019-05-06T14:17:11+0000",
+                "last_publication_date": "2024-11-25T10:31:00+0000",
+                "uid": "privacy",
+                "link_type": "Document",
+                "isBroken": false
+              }
+            }
+          ],
+          "direction": "ltr"
+        }
+      ],
+      "goal_planning_hero": {
+        "dimensions": {
+          "width": 4452,
+          "height": 2918
+        },
+        "alt": null,
+        "copyright": null,
+        "url": "https://images.prismic.io/mindnode/Z2LZlpbqstJ98pAs_mindnode-goal-planning-2025.png?auto=format,compress",
+        "id": "Z2LZlpbqstJ98pAs",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "goal_planning_intro": [
+        {
+          "type": "paragraph",
+          "text": "Sign up for our newsletter and receive an exclusive guide on planning your new year!",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "social_links": [
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "9b7c46a6-34cc-414a-8273-b98a9282686e",
+            "url": "https://www.instagram.com/mindnodeapp/"
+          },
+          "type": "instagram"
+        },
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "74c634d9-8596-433f-b83a-38c052553f9a",
+            "url": "https://bsky.app/profile/mindnode.com"
+          },
+          "type": "bluesky"
+        },
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "7d2b6923-3103-4400-9423-974a6b93b4ba",
+            "url": "https://www.facebook.com/mindnode/"
+          },
+          "type": "facebook"
+        },
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "691fc26e-bffe-4fbe-ad93-53f1424aa2ef",
+            "url": "http://youtube.com/MindNodeApp"
+          },
+          "type": "youtube"
+        },
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "22d67763-6f14-4158-87a3-d30609cb904a",
+            "url": "https://www.linkedin.com/company/ideasoncanvasgmbh/"
+          },
+          "type": "linkedin"
+        },
+        {
+          "link": {
+            "link_type": "Web",
+            "key": "1dbf9b5f-1ba9-4dad-a176-6e5918a05140",
+            "url": "https://mastodon.social/@mindnode"
+          },
+          "type": "mastodon"
+        }
+      ],
+      "copyright": "\u00a9 2025 IdeasOnCanvas GmbH",
+      "apple_line": [
+        {
+          "type": "paragraph",
+          "text": "Apple, the Apple logo, iPad, iPhone, Mac Book Pro, Apple Vision Pro, and iCloud are trademarks of Apple Inc., registered in the U.S. and other countries. App Store and Mac App Store are service marks of Apple Inc.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "body": [
+        {
+          "primary": {
+            "column_title": "MindNode"
+          },
+          "items": [
+            {
+              "label": "Features",
+              "link": {
+                "id": "XLXiwRAAALYUs2pu",
+                "type": "product",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "product",
+                "first_publication_date": "2019-04-16T14:12:23+0000",
+                "last_publication_date": "2025-10-07T09:57:24+0000",
+                "link_type": "Document",
+                "key": "131aef31-42ce-47ee-a57a-5ade34371660",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Download",
+              "link": {
+                "id": "XLmMYDEAAEEA3QzP",
+                "type": "download",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "download",
+                "first_publication_date": "2019-04-19T08:52:51+0000",
+                "last_publication_date": "2025-10-21T15:25:58+0000",
+                "link_type": "Document",
+                "key": "3cc802be-99d6-434b-be4a-43d8f20404b1",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Gallery",
+              "link": {
+                "link_type": "Web",
+                "key": "4670ecb7-bd47-4f99-b27f-9ade19f63227",
+                "url": "https://mindnode.com/gallery"
+              }
+            },
+            {
+              "label": "Accessibility",
+              "link": {
+                "id": "ZQm4MhEAAC4AqaQM",
+                "type": "accessibility",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "accessibility",
+                "first_publication_date": "2023-09-19T15:04:50+0000",
+                "last_publication_date": "2025-05-08T09:27:27+0000",
+                "link_type": "Document",
+                "key": "7fc8f595-ed93-460e-a524-1f5d1a9cd400",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Optimized for Apple",
+              "link": {
+                "link_type": "Web",
+                "key": "47d92268-2104-47c6-aa7e-18980dbd1e83",
+                "url": "https://mindnode.com/apple"
+              }
+            },
+            {
+              "label": "What is Mind Mapping",
+              "link": {
+                "id": "ZF5XWBAAACEAULTU",
+                "type": "what-is-mind-mapping",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "what-is-mind-mapping",
+                "first_publication_date": "2023-05-12T16:04:18+0000",
+                "last_publication_date": "2025-05-08T09:28:58+0000",
+                "uid": "what-is-mind-mapping",
+                "link_type": "Document",
+                "key": "49a9dcd4-279a-48e6-921c-4f35a4fffc10",
+                "isBroken": false
+              }
+            }
+          ],
+          "id": "footer_link_column$1606b38d-dacf-41a4-8243-5ea26acc6266",
+          "slice_type": "footer_link_column",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "column_title": "Info"
+          },
+          "items": [
+            {
+              "label": "Support",
+              "link": {
+                "id": "XLmGPzEAAEEA3PFm",
+                "type": "support",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "support",
+                "first_publication_date": "2019-04-22T11:06:09+0000",
+                "last_publication_date": "2025-09-29T10:18:39+0000",
+                "link_type": "Document",
+                "key": "6d798a35-7452-4b77-8a45-c1e235d53d7e",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "User Guide",
+              "link": {
+                "id": "YTisDRIAACIATgvL",
+                "type": "user_guide",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "user-guide",
+                "first_publication_date": "2021-09-08T12:31:39+0000",
+                "last_publication_date": "2025-06-03T10:54:08+0000",
+                "uid": "user-guide",
+                "link_type": "Document",
+                "key": "afbf714f-d2af-46ee-b4c6-29e9749f6805",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Newsletter",
+              "link": {
+                "link_type": "Web",
+                "key": "e2bc1018-631c-4fc3-ae3d-c42c4cbf1c90",
+                "url": "https://mindnode.com/newsletter"
+              }
+            },
+            {
+              "label": "Release Notes",
+              "link": {
+                "id": "XLmJRjEAAEQA3P76",
+                "type": "releases",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "release-notes",
+                "first_publication_date": "2019-04-19T08:40:04+0000",
+                "last_publication_date": "2019-04-20T19:04:19+0000",
+                "link_type": "Document",
+                "key": "c5b99c00-e3d8-40ba-8459-0794c8134c6e",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Public Beta",
+              "link": {
+                "id": "X9s4CREAACQAO-Vz",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "public-beta",
+                "first_publication_date": "2020-12-17T10:50:52+0000",
+                "last_publication_date": "2025-05-14T18:55:56+0000",
+                "uid": "beta",
+                "link_type": "Document",
+                "key": "734c1005-8c54-447f-bea2-035aaa9df8c3",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Themes",
+              "link": {
+                "id": "Xp2dLREAACEAId1n",
+                "type": "themes",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "themes",
+                "first_publication_date": "2020-04-20T13:01:37+0000",
+                "last_publication_date": "2024-12-03T08:36:56+0000",
+                "link_type": "Document",
+                "key": "fccec22c-23d4-4ea2-9c99-241f8a69fd2c",
+                "isBroken": false
+              }
+            }
+          ],
+          "id": "footer_link_column$ed182a06-ea82-4a14-bc54-ad0366e92933",
+          "slice_type": "footer_link_column",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "column_title": "Company"
+          },
+          "items": [
+            {
+              "label": "About Us",
+              "link": {
+                "id": "XLYRShAAANIZtDeR",
+                "type": "about",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "about",
+                "first_publication_date": "2019-04-16T17:40:09+0000",
+                "last_publication_date": "2025-09-03T14:13:10+0000",
+                "link_type": "Document",
+                "key": "61a3385f-f6b4-434f-8473-d8bf50b371d1",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Privacy Policy",
+              "link": {
+                "id": "XNBB5DEAAEEAQHWs",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "privacy-policy",
+                "first_publication_date": "2019-05-06T14:17:11+0000",
+                "last_publication_date": "2024-11-25T10:31:00+0000",
+                "uid": "privacy",
+                "link_type": "Document",
+                "key": "a8254c2a-9886-4b81-8dbb-4254d8a322c5",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Terms",
+              "link": {
+                "id": "Xg8yphAAACQAJwnw",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "terms-of-service",
+                "first_publication_date": "2020-01-03T12:25:13+0000",
+                "last_publication_date": "2025-05-05T11:29:59+0000",
+                "uid": "terms",
+                "link_type": "Document",
+                "key": "65370393-d494-4e34-b04c-391927c29297",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Jobs",
+              "link": {
+                "id": "XLmNyTEAAEEA3RM5",
+                "type": "jobs",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "jobs",
+                "first_publication_date": "2019-04-19T08:58:53+0000",
+                "last_publication_date": "2025-05-08T09:27:45+0000",
+                "link_type": "Document",
+                "key": "bb3dfea9-2e99-4335-9363-06f759d9b031",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Press",
+              "link": {
+                "id": "XLYSvxAAAKEetD4G",
+                "type": "press",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "press",
+                "first_publication_date": "2019-04-16T17:39:03+0000",
+                "last_publication_date": "2025-09-12T11:54:13+0000",
+                "link_type": "Document",
+                "key": "2c59b42d-ee23-4c79-8027-99e89bfa341b",
+                "isBroken": false
+              }
+            },
+            {
+              "label": "Imprint",
+              "link": {
+                "id": "XLm7QTEAAEMA3cIN",
+                "type": "page",
+                "tags": [],
+                "lang": "en-us",
+                "slug": "imprint",
+                "first_publication_date": "2019-04-19T12:13:26+0000",
+                "last_publication_date": "2024-10-16T12:49:42+0000",
+                "uid": "imprint",
+                "link_type": "Document",
+                "key": "e0afa3ba-a472-4786-ae8a-6fbb2e0ef5d7",
+                "isBroken": false
+              }
+            }
+          ],
+          "id": "footer_link_column$4ca1dc3c-70d8-49b6-b2bf-313c54187189",
+          "slice_type": "footer_link_column",
+          "slice_label": null
+        }
+      ]
+    }
+  },
+  "userGuide": [
+    {
+      "id": "YR-8whAAAFAQbZXL",
+      "slug": "/user-guide/about-mindnode-next",
+      "title": "About MindNode Next",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/about-mindnode-next"
+    },
+    {
+      "id": "YVtr-hIAACUAwZLi",
+      "slug": "/user-guide/about-mindnode-next/what-is-mind-mapping",
+      "title": "What is Mind Mapping",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/about-mindnode-next"
+    },
+    {
+      "id": "YREychAAACMALEyS",
+      "slug": "/user-guide/step-by-step-guide",
+      "title": "Step-by-Step Guide",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "YREzOBAAACEALFBZ",
+      "slug": "/user-guide/step-by-step-guide/your-first-thoughts",
+      "title": "Your (First) Thoughts",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "YbkluxAAAEQIErhG",
+      "slug": "/user-guide/step-by-step-guide/stickers",
+      "title": "Stickers",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "YyMfQxcAACgABRSH",
+      "slug": "/user-guide/step-by-step-guide/emojis",
+      "title": "Emojis",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "YbkmlxAAACAAErw8",
+      "slug": "/user-guide/step-by-step-guide/photos",
+      "title": "Photos",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "YbkpJxAAAIUFEsfj",
+      "slug": "/user-guide/step-by-step-guide/notes",
+      "title": "Notes",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "Ybm4FhAAAIUFFUJx",
+      "slug": "/user-guide/step-by-step-guide/links",
+      "title": "Links",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "Ybm5HxAAACAAFUeA",
+      "slug": "/user-guide/step-by-step-guide/tasks",
+      "title": "Tasks",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/step-by-step-guide"
+    },
+    {
+      "id": "Ybm99xAAACAAFVeJ",
+      "slug": "/user-guide/organize",
+      "title": "Organize",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/organize"
+    },
+    {
+      "id": "YbnAgBAAAIUFFWPB",
+      "slug": "/user-guide/organize/reconnect-and-navigate",
+      "title": "Reconnect & Navigate",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/organize"
+    },
+    {
+      "id": "YbnA3RAAACAAFWWU",
+      "slug": "/user-guide/organize/fold-and-unfold-branches",
+      "title": "Fold & Unfold Branches",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/organize"
+    },
+    {
+      "id": "YbnDFBAAACMAFWy2",
+      "slug": "/user-guide/organize/connections",
+      "title": "Connections",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/organize"
+    },
+    {
+      "id": "Ybn_DBAAAEQIFnog",
+      "slug": "/user-guide/organize/tags",
+      "title": "Tags",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/organize"
+    },
+    {
+      "id": "YboAyBAAAIUFFoJn",
+      "slug": "/user-guide/styles",
+      "title": "Styles",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/styles"
+    },
+    {
+      "id": "YboBxhAAAIUFFocu",
+      "slug": "/user-guide/styles/style-nodes",
+      "title": "Style Nodes",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/styles"
+    },
+    {
+      "id": "YbpvVBAAAEQIGEW9",
+      "slug": "/user-guide/styles/style-mind-maps",
+      "title": "Style Mind Maps",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/styles"
+    },
+    {
+      "id": "YbpxzRAAACMAGFDf",
+      "slug": "/user-guide/discover-and-dive-deeper",
+      "title": "Discover & Dive Deeper",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/discover-and-dive-deeper"
+    },
+    {
+      "id": "Ybp2QxAAACAAGGQR",
+      "slug": "/user-guide/discover-and-dive-deeper/outline",
+      "title": "Outline",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/discover-and-dive-deeper"
+    },
+    {
+      "id": "YbpyVBAAACAAGFM4",
+      "slug": "/user-guide/discover-and-dive-deeper/tag-highlighting",
+      "title": "Tag Highlighting",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/discover-and-dive-deeper"
+    },
+    {
+      "id": "Ybp4ixAAAEQIGG5Y",
+      "slug": "/user-guide/discover-and-dive-deeper/search-and-filter",
+      "title": "Search & Filter",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/discover-and-dive-deeper"
+    },
+    {
+      "id": "Zbuz1xAAACAASXXL",
+      "slug": "/user-guide/discover-and-dive-deeper/immersive-brainstorming",
+      "title": "Immersive Brainstorming",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/discover-and-dive-deeper"
+    },
+    {
+      "id": "Ybrt9RAAAIUFGle-",
+      "slug": "/user-guide/settings-and-devices",
+      "title": "Settings & Devices",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Ybrw8BAAACAAGmU1",
+      "slug": "/user-guide/settings-and-devices/settings",
+      "title": "Settings",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Zbu0iBAAAB8ASXbS",
+      "slug": "/user-guide/settings-and-devices/document-picker",
+      "title": "Document Picker",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Ybr1bhAAACMAGni-",
+      "slug": "/user-guide/settings-and-devices/toolbar-customization",
+      "title": "Toolbar Customization",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Ybr3SxAAAEQIGoFq",
+      "slug": "/user-guide/settings-and-devices/apple-pencil-and-mouse-pointer",
+      "title": "Apple Pencil + Mouse Pointer",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Ybr1qxAAACAAGnnY",
+      "slug": "/user-guide/settings-and-devices/gestures",
+      "title": "Gestures",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/settings-and-devices"
+    },
+    {
+      "id": "Ybr4JhAAAEQIGoVf",
+      "slug": "/user-guide/share",
+      "title": "Share",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/share"
+    },
+    {
+      "id": "Ybr4nhAAACAAGoeN",
+      "slug": "/user-guide/share/import",
+      "title": "Import",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/share"
+    },
+    {
+      "id": "Ybr45xAAACMAGojl",
+      "slug": "/user-guide/share/export",
+      "title": "Export",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/share"
+    },
+    {
+      "id": "YsKOWRAAAB0A3D--",
+      "slug": "/user-guide/share/print",
+      "title": "Print",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/share"
+    },
+    {
+      "id": "Z1AuKxcAADIApIWW",
+      "slug": "/user-guide/share/collaboration",
+      "title": "Collaboration",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/share"
+    },
+    {
+      "id": "YbsK0BAAACAAGtff",
+      "slug": "/user-guide/automation",
+      "title": "Automation",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/automation"
+    },
+    {
+      "id": "YbsLkRAAACMAGtlF",
+      "slug": "/user-guide/automation/shortcuts-app",
+      "title": "Apple Shortcuts",
+      "className": "toc__lvl2--item",
+      "baseSlug": "/user-guide/automation"
+    },
+    {
+      "id": "YbsMehAAACMAGtr4",
+      "slug": "/user-guide/enjoy-mindnode",
+      "title": "Enjoy MindNode Next!",
+      "className": "toc__lvl1--item",
+      "baseSlug": "/user-guide/enjoy-mindnode"
+    }
+  ],
+  "__N_SSG": true,
+  "pageProps": {
+    "data": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "MindNode Features",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "custom_share_image": {},
+      "intro": [
+        {
+          "type": "paragraph",
+          "text": "Features",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "custom_share_text": "MindNode Features",
+      "header_image": {
+        "dimensions": {
+          "width": 2644,
+          "height": 708
+        },
+        "alt": "Multiple devices with Mindnode open",
+        "copyright": null,
+        "url": "https://images.prismic.io/mindnode/aMfP0GGNHVfTPOp1_DesktopHeaderImage.png?auto=format,compress",
+        "id": "aMfP0GGNHVfTPOp1",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "header_image_mobile": {
+        "dimensions": {
+          "width": 820,
+          "height": 1335
+        },
+        "alt": "Multiple devices with Mindnode open",
+        "copyright": null,
+        "url": "https://images.prismic.io/mindnode/aMfP3GGNHVfTPOp4_MobileHeaderImage.png?auto=format,compress&rect=0,0,860,1400&w=820&h=1335",
+        "id": "aMfP3GGNHVfTPOp4",
+        "edit": {
+          "x": 0,
+          "y": 0,
+          "zoom": 1,
+          "background": "transparent"
+        }
+      },
+      "page_title": [
+        {
+          "type": "heading1",
+          "text": "MindNode Features",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "page_teaser": [
+        {
+          "type": "paragraph",
+          "text": "MindNode helps you capture, develop, and act on your ideas by combining visual mind mapping with structured outlining. Whether you're brainstorming, organizing, or building a full plan, MindNode brings clarity to every step.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "body": [
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "Think: Explore and Capture",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "Mind mapping icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHWKTt2nPbaM51_Mindmapping.svg",
+                "id": "aJsHWKTt2nPbaM51",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 501,
+                  "height": 355
+                },
+                "alt": "Mind map showing MindNode's diverse use cases.",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJs3aqTt2nPbaN8B_Mindmapping.svg",
+                "id": "aJs3aqTt2nPbaN8B",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Mind Maps",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "See your thinking unfold in real time. Branch, cluster, and evolve ideas freely on an infinite canvas.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "dark_indigo",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "Outlining icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHbKTt2nPbaM6A_Outline.svg",
+                "id": "aJsHbKTt2nPbaM6A",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 696,
+                  "height": 608
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/bdc2861c-4517-4a4a-a36c-f701b99b90d2_tasks.png?auto=format,compress",
+                "id": "ZbU9UBcAACMAEaJq",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Outlines",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Prefer a more linear flow? Switch to Outline View to edit your mind map as a fully structured, hierarchical list.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Image icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHj6Tt2nPbaM6R_Image.svg",
+                "id": "aJsHj6Tt2nPbaM6R",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 697,
+                  "height": 608
+                },
+                "alt": "Mind map with images",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJs5_KTt2nPbaN-S_Images.svg",
+                "id": "aJs5_KTt2nPbaN-S",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Images",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Add context to your ideas with images \u2014 from your photo library or generated directly using Image Playground.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Stickers icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHqaTt2nPbaM6a_Stickers.svg",
+                "id": "aJsHqaTt2nPbaM6a",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 713,
+                  "height": 598
+                },
+                "alt": "Mind map with multiple colorful stickers used to highlight nodes.",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aIyUZKTt2nPbZpBA_Stickers.svg",
+                "id": "aIyUZKTt2nPbZpBA",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Stickers & Emojis",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Enhance clarity and add visual delight with over 250 custom-designed stickers and full emoji support. Stickers adapt to your theme and are searchable via Sticker Search.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "collaboration icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHxaTt2nPbaM6d_Collaboration.svg",
+                "id": "aJsHxaTt2nPbaM6d",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 1430,
+                  "height": 590
+                },
+                "alt": "Collaborative mind map about planning a world travel adventure.",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aMfA8WGNHVfTPOht_Collaboration.svg",
+                "id": "aMfA8WGNHVfTPOht",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Live Collaboration",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Work with others in real time. Whether it's a team workshop or project planning with friends, mapping ideas together is seamless.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "gray",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Seemless sync",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsH56Tt2nPbaM6v_Sync.svg",
+                "id": "aJsH56Tt2nPbaM6v",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 697,
+                  "height": 608
+                },
+                "alt": "Illustration of iPad, MacBook Pro, Apple Vision Pro and iPhone floating. All device screens show the MindNode icon.",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJs2z6Tt2nPbaN7y_AllDevices.svg",
+                "id": "aJs2z6Tt2nPbaN7y",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "All Your Devices",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "MindNode runs beautifully on Mac, iPad, iPhone, and Vision Pro. Everything syncs privately and securely via iCloud.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 97
+                },
+                "alt": "Apple Vision Pro icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIAqTt2nPbaM6__Immersive_Mode.svg",
+                "id": "aJsIAqTt2nPbaM6_",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 1317,
+                  "height": 739
+                },
+                "alt": "Immersive brainstorming mode on the Apple Vision Pro is seen",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aIyV16Tt2nPbZpCP_ImmersiveMode.png?auto=format,compress",
+                "id": "aIyV16Tt2nPbZpCP",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Immersive Brainstorming on Vision Pro",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "On Apple Vision Pro, collect your thoughts as colorful floating pills in space. Grab, move, and connect them \u2014 it's brainstorming like never before.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "dark_indigo",
+              "width": "full",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "standard"
+            }
+          ],
+          "id": "bento_box$d54b5b9f-643a-4c77-afa3-33160cba3a62",
+          "slice_type": "bento_box",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "AI: Private and On-Device",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "AI icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aNEyf55xUNkB09___AI_iconleft.svg",
+                "id": "aNEyf55xUNkB09__",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 1920,
+                  "height": 1080
+                },
+                "alt": "AI brainstorming mode used to create a mind map",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aMQUc2GNHVfTPFod_ai.png?auto=format,compress",
+                "id": "aMQUc2GNHVfTPFod",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "AI Brainstorming",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Kickstart a new document with a suggested structure, or expand existing content with a single tap in the action menu.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "full",
+              "is_overlay": false,
+              "order": "image_left",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Notes icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIXaTt2nPbaM7r_Notes.svg",
+                "id": "aJsIXaTt2nPbaM7r",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 713,
+                  "height": 598
+                },
+                "alt": "Summarisation of a creativity mind map",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aN0sap5xUNkB1Xh8_Summarize.png?auto=format,compress",
+                "id": "aN0sap5xUNkB1Xh8",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Generate Text & Summarize",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Turn your mind map or outline into an article, or summarize long documents directly from the document picker.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Image icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsHj6Tt2nPbaM6R_Image.svg",
+                "id": "aJsHj6Tt2nPbaM6R",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Image Background Removal",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Instantly clean up visuals by removing backgrounds.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "standard"
+            }
+          ],
+          "id": "bento_box$43847556-4c21-4192-97e5-8d2836c4bac3",
+          "slice_type": "bento_box",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "Clarify: Structure and Refine",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 96
+                },
+                "alt": "Tag icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIH6Tt2nPbaM7R_Tags.svg",
+                "id": "aJsIH6Tt2nPbaM7R",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 714,
+                  "height": 598
+                },
+                "alt": "Visual tags in action",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aMwO9GGNHVfTPXge_VisualTags.png?auto=format,compress",
+                "id": "aMwO9GGNHVfTPXge",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Visual Tags",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Categorize ideas with visual tags to add meaning beyond structure. Use Tag Highlight Mode to spotlight related ideas \u2014 perfect for prioritizing or filtering complex projects.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "Connections icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsISaTt2nPbaM7p_Connections.svg",
+                "id": "aJsISaTt2nPbaM7p",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 714,
+                  "height": 598
+                },
+                "alt": "Three nodes connected via connection feature",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aMwTnmGNHVfTPXnN_Connections.svg",
+                "id": "aMwTnmGNHVfTPXnN",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Connections",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Draw lines between related nodes to show relationships that go beyond hierarchy.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Notes icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIXaTt2nPbaM7r_Notes.svg",
+                "id": "aJsIXaTt2nPbaM7r",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 714,
+                  "height": 598
+                },
+                "alt": "Mind map about skills with an opened note",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aMwgsGGNHVfTPXz0_Notes.png?auto=format,compress",
+                "id": "aMwgsGGNHVfTPXz0",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Notes",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Add extra details to any node without cluttering your map. Notes are perfect for explanations or references \u2014 and stay hidden until needed.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "focus mode icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIcqTt2nPbaM7v_FocusMode.svg",
+                "id": "aJsIcqTt2nPbaM7v",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 894,
+                  "height": 365
+                },
+                "alt": "Image showing a mind map in focus mode",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJtZVqTt2nPbaOm9_FocusMode.svg",
+                "id": "aJtZVqTt2nPbaOm9",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Focus Mode",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Hide distractions by dimming everything except the selected nodes. Ideal for focused work or presentations.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "gray",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "Folding icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIiKTt2nPbaM7x_Folding.svg",
+                "id": "aJsIiKTt2nPbaM7x",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 347,
+                  "height": 360
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/8b739641-0d62-4ec6-bef4-cec3e4be8629_03_folding.svg",
+                "id": "Zby7lRAAAB8ASu9t",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Folding",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Collapse sections of your map or outline to reduce visual clutter \u2014 and expand them when you're ready.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            }
+          ],
+          "id": "bento_box$91858745-d384-4575-b8b7-1d97f6d945ca",
+          "slice_type": "bento_box",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "Act: From Thought to Impact",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "Tasks icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsIqqTt2nPbaM8E_Tasks.svg",
+                "id": "aJsIqqTt2nPbaM8E",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 894,
+                  "height": 365
+                },
+                "alt": "Checklist with items for a skiing trip",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJtPuKTt2nPbaOY6_Tasks.svg",
+                "id": "aJtPuKTt2nPbaOY6",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Tasks",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Turn ideas into actionable tasks. Manage them visually and keep everything in sync with Apple Reminders.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "dark_indigo",
+              "width": "full",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "standard"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 96
+                },
+                "alt": "Shortcuts icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsI36Tt2nPbaM8P_AppleShortcuts.svg",
+                "id": "aJsI36Tt2nPbaM8P",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 1788,
+                  "height": 1326
+                },
+                "alt": "MindNode shortcut in Shortcuts app",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aN0iHJ5xUNkB1XQe_Screenshot2025-10-01at14.41.40.png?auto=format,compress",
+                "id": "aN0iHJ5xUNkB1XQe",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Apple Shortcuts",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Automate your workflows with built-in support for Apple Shortcuts. Ideal for power users and recurring projects.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 96
+                },
+                "alt": "Link icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsN4aTt2nPbaNEp_Link.svg",
+                "id": "aJsN4aTt2nPbaNEp",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Link Documents",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Create deep links between your thoughts. Link any node to another \u2014 even across documents.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 97
+                },
+                "alt": "import icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsL46Tt2nPbaNBi_Import.svg",
+                "id": "aJsL46Tt2nPbaNBi",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Import",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Easily bring in existing content from formats like OPML, Markdown, and plain text.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "gray",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 96
+                },
+                "alt": "export icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsLz6Tt2nPbaNBf_Export.svg",
+                "id": "aJsLz6Tt2nPbaNBf",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 1456,
+                  "height": 850
+                },
+                "alt": "Export screen showing multiple export options",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aMwhPmGNHVfTPX0E_Screenshot2025-09-18at09.52.18.png?auto=format,compress",
+                "id": "aMwhPmGNHVfTPX0E",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Share & Export",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Export your ideas in a wide range of formats: PDF, SVG, FreeMind, OPML, PNG, Markdown, TextBundle, Plain Text, and Rich Text.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "2/3",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            }
+          ],
+          "id": "bento_box$32fb75ea-75e1-4510-afe2-24febfab67a7",
+          "slice_type": "bento_box",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "Express: Your Own Style",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 97
+                },
+                "alt": "dynamic themes icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsJPaTt2nPbaM83_DynamicThemes.svg",
+                "id": "aJsJPaTt2nPbaM83",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 894,
+                  "height": 365
+                },
+                "alt": "Six MindNode colorful theme thumbnails",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aN0ksJ5xUNkB1XWR_DynamicThemes.svg",
+                "id": "aN0ksJ5xUNkB1XWR",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Dynamic Themes",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Choose from curated themes or create your own. Themes adjust automatically for light and dark modes.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "full",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 96
+                },
+                "alt": "layout icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsMUqTt2nPbaNCO_Layout.svg",
+                "id": "aJsMUqTt2nPbaNCO",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Layout Options",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Use vertical, horizontal, or compact layouts to suit your project. Need more control? Override the automatic layout to manually position nodes.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "node shapes icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsJjaTt2nPbaM9R_NodeShape.svg",
+                "id": "aJsJjaTt2nPbaM9R",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 714,
+                  "height": 598
+                },
+                "alt": "six different node shapes",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aN037Z5xUNkB1Xvk_Shapes.svg",
+                "id": "aN037Z5xUNkB1Xvk",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Node Shapes",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Choose from a variety of shapes including Rectangle, Rounded, Pill, Cloud, Line, Embedded, Hexagon, and Octagon.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "brush icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsMaaTt2nPbaNCY_Style.svg",
+                "id": "aJsMaaTt2nPbaNCY",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 714,
+                  "height": 598
+                },
+                "alt": "Inline inspector is opened on a node",
+                "copyright": null,
+                "url": "https://images.prismic.io/mindnode/aMwXV2GNHVfTPXrO_Inspector.png?auto=format,compress",
+                "id": "aMwXV2GNHVfTPXrO",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Style & Inspector",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "Customize colors, line styles, shapes, and more \u2014 all in one easy-to-use sidebar or inline inspector.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            }
+          ],
+          "id": "bento_box$fd62d850-8777-4fe1-a801-1da905b3d0c7",
+          "slice_type": "bento_box",
+          "slice_label": null
+        },
+        {
+          "primary": {
+            "bento_title": [
+              {
+                "type": "heading1",
+                "text": "And So Much More\u2026",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          },
+          "items": [
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 97
+                },
+                "alt": "Lock icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsJ-6Tt2nPbaM-G_Secure.svg",
+                "id": "aJsJ-6Tt2nPbaM-G",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Secure and Private",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "MindNode values your privacy. All your data is stored securely and encrypted on iCloud, ensuring that your ideas stay private and protected.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "speech bubble icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsKFaTt2nPbaM-W_MultilingualSupport.svg",
+                "id": "aJsKFaTt2nPbaM-W",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Multilingual Support",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "MindNode is fully localized in English, Arabic, Chinese (Simplified and Traditional), Dutch, French, German, Italian, Japanese, Korean, Brazilian Portuguese, Spanish, Swedish, and Thai.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "lighter_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 97,
+                  "height": 97
+                },
+                "alt": "accessibility icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsKLKTt2nPbaM-h_Accessibility.svg",
+                "id": "aJsKLKTt2nPbaM-h",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {},
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Accessibility",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "MindNode is designed to be inclusive, with support for VoiceOver, dynamic type, and other accessibility features.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "light_indigo",
+              "width": "1/3",
+              "is_overlay": false,
+              "order": "image_bottom",
+              "image_padding": "none"
+            },
+            {
+              "icon": {
+                "dimensions": {
+                  "width": 96,
+                  "height": 97
+                },
+                "alt": "apple icon",
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJsLnqTt2nPbaNBZ_Apple.svg",
+                "id": "aJsLnqTt2nPbaNBZ",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "cover_image": {
+                "dimensions": {
+                  "width": 894,
+                  "height": 597
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://mindnode.cdn.prismic.io/mindnode/aJs5K6Tt2nPbaN9h_MadeForApple.svg",
+                "id": "aJs5K6Tt2nPbaN9h",
+                "edit": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 1,
+                  "background": "transparent"
+                }
+              },
+              "card_title": [
+                {
+                  "type": "heading2",
+                  "text": "Made for Apple",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "card_description": [
+                {
+                  "type": "paragraph",
+                  "text": "MindNode is lovingly crafted for macOS, iOS, iPadOS, and visionOS \u2014 fitting seamlessly into Apple's ecosystem.",
+                  "spans": [],
+                  "direction": "ltr"
+                }
+              ],
+              "video_file": {
+                "link_type": "Media"
+              },
+              "background_color": "dark_indigo",
+              "width": "full",
+              "is_overlay": false,
+              "order": "image_right",
+              "image_padding": "none"
+            }
+          ],
+          "id": "bento_box$05b86f09-f314-4f72-b494-d9c9cc0a92c2",
+          "slice_type": "bento_box",
+          "slice_label": null
+        }
+      ]
+    },
+    "currentUrl": "/features",
+    "preview": false
+  }
+}

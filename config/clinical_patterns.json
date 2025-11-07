@@ -1,0 +1,14 @@
+[
+  {"label": "fiebre", "type": "symptom", "pattern": "\\bfiebre(?:\\s+de\\s+(\\d+\\.?\\d*)\\s*°?c)?", "attributes": {"category": "sistemico"}},
+  {"label": "tos", "type": "symptom", "pattern": "\\btos(?:\\s+exigente|\\s+seca)?", "attributes": {"system": "respiratorio"}},
+  {"label": "coriza", "type": "symptom", "pattern": "\\bcoriza\\b", "attributes": {"system": "respiratorio"}},
+  {"label": "conjuntivitis", "type": "sign", "pattern": "conjuntivas?", "attributes": {"system": "ocular"}},
+  {"label": "adenopatias_cervicales", "type": "sign", "pattern": "ganglios? (?:cervicales?|suboccipitales?)", "attributes": {"location": "cervical"}},
+  {"label": "exantema_morbilliforme", "type": "sign", "pattern": "exantema (?:morbiliforme|maculopapular)", "attributes": {"category": "rash"}},
+  {"label": "lesiones_vesiculares", "type": "sign", "pattern": "lesiones? vesiculares", "attributes": {"category": "rash"}},
+  {"label": "prurito", "type": "symptom", "pattern": "pruriginos", "attributes": {"category": "piel"}},
+  {"label": "palmas_plantas", "type": "sign", "pattern": "palmas? de manos? y pies", "attributes": {"location": "acral"}},
+  {"label": "adenopatias", "type": "sign", "pattern": "adenopat", "attributes": {"system": "linfático"}},
+  {"label": "rash_reticulado", "type": "sign", "pattern": "aspecto reticulado", "attributes": {"category": "rash"}},
+  {"label": "periodo_timeline", "type": "timeline", "pattern": "\\b(\\d+) (?:d[ií]as|dias)", "attributes": {"unit": "dias"}}
+]

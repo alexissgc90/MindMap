@@ -1,0 +1,16 @@
+{
+  "name": "mindmap-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:backend dev:frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm-run-all build:backend build:frontend",
+    "build:backend": "npm run build --prefix backend || true",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
