@@ -108,6 +108,7 @@ type NewNodeInput = {
 };
 
 type StyleScope = 'selected' | 'level1' | 'level2';
+type FlashcardScope = 'selected' | 'branch' | 'selection' | 'level1' | 'level2plus' | 'floating' | 'all';
 
 type EdgeStyleConfig = {
   stroke: string;
@@ -116,6 +117,16 @@ type EdgeStyleConfig = {
 };
 
 type ContextMenuItem = { action: string; label: string };
+
+const FLASHCARD_SCOPE_OPTIONS: Array<{ value: FlashcardScope; label: string }> = [
+  { value: 'selected', label: 'Tema seleccionado' },
+  { value: 'branch', label: 'Rama del seleccionado' },
+  { value: 'selection', label: 'Selección múltiple' },
+  { value: 'level1', label: 'Nivel 1 (raíces)' },
+  { value: 'level2plus', label: 'Niveles 2+' },
+  { value: 'floating', label: 'Nodos flotantes' },
+  { value: 'all', label: 'Todo el mapa' },
+];
 
 const getColorByLevel = (level = 1, custom?: string, palette = COLOR_PALETTE) =>
   custom ?? palette[(level - 1) % palette.length];
@@ -235,6 +246,40 @@ const collectSubtreeIds = (rootId: string, edges: MindMapEdge[]): Set<string> =>
     children.forEach((child) => stack.push(child));
   }
   return visited;
+};
+
+const pickNodesByScope = (
+  nodes: MindMapNode[],
+  edges: MindMapEdge[],
+  scope: FlashcardScope,
+  selectedNodeId: string | null,
+  selectedNodeIds: string[] = [],
+): MindMapNode[] => {
+  const primarySelected =
+    selectedNodeIds[selectedNodeIds.length - 1] ?? selectedNodeId ?? selectedNodeIds[0] ?? null;
+  switch (scope) {
+    case 'selected':
+      return primarySelected ? nodes.filter((node) => node.id === primarySelected) : [];
+    case 'branch': {
+      if (!primarySelected) return [];
+      const subtree = collectSubtreeIds(primarySelected, edges);
+      return nodes.filter((node) => subtree.has(node.id));
+    }
+    case 'selection': {
+      if (!selectedNodeIds.length) return [];
+      const selectedSet = new Set(selectedNodeIds);
+      return nodes.filter((node) => selectedSet.has(node.id));
+    }
+    case 'level1':
+      return nodes.filter((node) => (node.data?.level ?? 1) === 1);
+    case 'level2plus':
+      return nodes.filter((node) => (node.data?.level ?? 1) > 1);
+    case 'floating':
+      return nodes.filter((node) => node.data?.isFloating);
+    case 'all':
+    default:
+      return nodes;
+  }
 };
 
 const toggleBranchCollapse = (
@@ -637,6 +682,7 @@ const App = () => {
   });
   const [styleTab, setStyleTab] = useState<'shape' | 'text' | 'structure' | 'branching'>('shape');
   const [styleScope, setStyleScope] = useState<StyleScope>('selected');
+  const [flashcardScope, setFlashcardScope] = useState<FlashcardScope>('selected');
   const [edgeStyleConfig, setEdgeStyleConfig] = useState<EdgeStyleConfig>({
     stroke: '#94a3b8',
     strokeWidth: 2,
@@ -649,6 +695,21 @@ const App = () => {
   const [sidePanelOpen, setSidePanelOpen] = useState(true);
   const [coloredBranches, setColoredBranches] = useState(true);
   const [branchFocusId, setBranchFocusId] = useState<string | null>(null);
+  const selectedNodeIds = useMemo(() => {
+    const activeSelections = nodes.filter((node) => node.selected).map((node) => node.id);
+    if (!activeSelections.length && selectedNodeId) {
+      return [selectedNodeId];
+    }
+    return activeSelections;
+  }, [nodes, selectedNodeId]);
+
+  useEffect(() => {
+    if (!selectedNodeIds.length) {
+      setSelectedNodeId(null);
+    } else if (!selectedNodeId || !selectedNodeIds.includes(selectedNodeId)) {
+      setSelectedNodeId(selectedNodeIds[selectedNodeIds.length - 1]);
+    }
+  }, [selectedNodeId, selectedNodeIds]);
 
   useEffect(() => {
     nodesRef.current = nodes;
@@ -812,6 +873,21 @@ const App = () => {
     }),
     [floatingNodes.length, visibleEdges.length, visibleNodes],
   );
+
+  const flashcardScopeTargets = useMemo(
+    () => pickNodesByScope(nodes, edges, flashcardScope, selectedNodeId, selectedNodeIds),
+    [edges, flashcardScope, nodes, selectedNodeId, selectedNodeIds],
+  );
+
+  const flashcardActiveTargets = useMemo(
+    () => flashcardScopeTargets.filter((node) => node.data?.flashcardMode),
+    [flashcardScopeTargets],
+  );
+
+  const flashcardNeedsSelection =
+    flashcardScope === 'selection'
+      ? selectedNodeIds.length === 0
+      : (flashcardScope === 'selected' || flashcardScope === 'branch') && !selectedNodeId;
 
   const getScopedNodeIds = useCallback(
     (scope: StyleScope) => {
@@ -993,6 +1069,60 @@ const App = () => {
       }));
     },
     [styleScope, updateNodesByScope],
+  );
+
+  const handleFlashcardModeChange = useCallback(
+    (enable: boolean) => {
+      const scopeNodes = pickNodesByScope(
+        nodesRef.current,
+        edgesRef.current,
+        flashcardScope,
+        selectedNodeId,
+        selectedNodeIds,
+      );
+      if (!scopeNodes.length) return;
+      const targetIds = new Set(scopeNodes.map((node) => node.id));
+      const nextNodes = nodesRef.current.map((node) =>
+        targetIds.has(node.id)
+          ? {
+              ...node,
+              data: {
+                ...node.data,
+                flashcardMode: enable,
+                isRevealed: enable ? false : true,
+              },
+            }
+          : node,
+      );
+      commitGraph(nextNodes, edgesRef.current, { skipNormalization: true });
+      setStatus({ text: enable ? 'Flashcards activadas' : 'Flashcards desactivadas', loading: false });
+    },
+    [commitGraph, flashcardScope, selectedNodeId, selectedNodeIds, setStatus],
+  );
+
+  const handleFlashcardReveal = useCallback(
+    (reveal: boolean) => {
+      const scopeNodes = pickNodesByScope(
+        nodesRef.current,
+        edgesRef.current,
+        flashcardScope,
+        selectedNodeId,
+        selectedNodeIds,
+      ).filter((node) => node.data?.flashcardMode);
+      if (!scopeNodes.length) return;
+      const targetIds = new Set(scopeNodes.map((node) => node.id));
+      const nextNodes = nodesRef.current.map((node) =>
+        targetIds.has(node.id)
+          ? {
+              ...node,
+              data: { ...node.data, isRevealed: reveal },
+            }
+          : node,
+      );
+      commitGraph(nextNodes, edgesRef.current, { skipNormalization: true, pushHistory: false });
+      setStatus({ text: reveal ? 'Flashcards reveladas' : 'Flashcards ocultas', loading: false });
+    },
+    [commitGraph, flashcardScope, selectedNodeId, selectedNodeIds, setStatus],
   );
 
   const toggleFontWeight = useCallback(() => {
@@ -1276,6 +1406,14 @@ const App = () => {
       commitGraph(nextNodes, currentEdges, { pushHistory: false });
     },
     [commitGraph],
+  );
+
+  const handleNodeDoubleClick = useCallback(
+    (_event: ReactMouseEvent, node: MindMapNode) => {
+      setSelectedNodeId(node.id);
+      updateNodeData(node.id, { isEditing: true });
+    },
+    [updateNodeData],
   );
 
   const toggleFloating = useCallback(
@@ -1915,9 +2053,14 @@ const App = () => {
                 onEdgesChange={onEdgesChange}
                 onConnect={onConnect}
                 onNodeClick={(_, node) => setSelectedNodeId(node.id)}
+                onNodeDoubleClick={handleNodeDoubleClick}
                 onNodeContextMenu={onNodeContextMenu}
                 onPaneClick={handlePaneClick}
                 onNodeMouseEnter={onNodeMouseEnter}
+                selectionKeyCode={null}
+                multiSelectionKeyCode={null}
+                selectionOnDrag
+                panOnDrag={[2]}
                 fitView
                 snapToGrid={showSnapLines}
                 snapGrid={[20, 20]}
@@ -2381,6 +2524,74 @@ const App = () => {
                             <li className="empty-hint">No hay nodos flotantes.</li>
                           )}
                         </ul>
+                      </div>
+                      <div className="flashcard-panel">
+                        <div className="flashcard-header">
+                          <div>
+                            <strong>Modo Flashcards</strong>
+                            <small>Oculta títulos para repasos activos.</small>
+                          </div>
+                          <select
+                            value={flashcardScope}
+                            onChange={(event) => setFlashcardScope(event.target.value as FlashcardScope)}
+                          >
+                            {FLASHCARD_SCOPE_OPTIONS.map((option) => (
+                              <option key={option.value} value={option.value}>
+                                {option.label}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+                        <div className="flashcard-stats">
+                          <span>{flashcardScopeTargets.length} nodos en alcance</span>
+                          <span>{flashcardActiveTargets.length} con flashcard</span>
+                        </div>
+                        {flashcardScope === 'selection' ? (
+                          <p className="flashcard-note">
+                            {selectedNodeIds.length
+                              ? `${selectedNodeIds.length} ${selectedNodeIds.length === 1 ? 'nodo seleccionado' : 'nodos seleccionados'}`
+                              : 'Selecciona varios nodos con Shift + click o caja de selección.'}
+                          </p>
+                        ) : null}
+                        {flashcardNeedsSelection ? (
+                          <p className="empty-hint">
+                            {flashcardScope === 'selection'
+                              ? 'Selecciona varios nodos en el canvas (Shift + click o arrastre).'
+                              : 'Selecciona un tema para controlar esta rama.'}
+                          </p>
+                        ) : null}
+                        <div className="flashcard-actions">
+                          <button
+                            type="button"
+                            onClick={() => handleFlashcardModeChange(true)}
+                            disabled={!flashcardScopeTargets.length}
+                          >
+                            Activar modo
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleFlashcardModeChange(false)}
+                            disabled={!flashcardActiveTargets.length}
+                          >
+                            Quitar modo
+                          </button>
+                        </div>
+                        <div className="flashcard-actions secondary">
+                          <button
+                            type="button"
+                            onClick={() => handleFlashcardReveal(false)}
+                            disabled={!flashcardActiveTargets.length}
+                          >
+                            Ocultar tarjetas
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleFlashcardReveal(true)}
+                            disabled={!flashcardActiveTargets.length}
+                          >
+                            Mostrar tarjetas
+                          </button>
+                        </div>
                       </div>
                     </div>
                   ) : null}

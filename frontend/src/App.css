@@ -977,6 +977,71 @@
   transition: background 0.25s ease;
 }
 
+.flashcard-actions button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.flashcard-panel {
+  margin-top: 1rem;
+  padding: 0.9rem;
+  border-radius: 1rem;
+  border: 1px solid var(--panel-border);
+  background: rgba(148, 163, 184, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.theme-light .flashcard-panel {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+.flashcard-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.flashcard-header strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.flashcard-header small {
+  display: block;
+  color: var(--inspector-muted);
+  margin-top: 0.15rem;
+}
+
+.flashcard-header select {
+  border: 1px solid var(--input-border);
+  border-radius: 0.6rem;
+  padding: 0.35rem 0.6rem;
+  background: var(--select-bg);
+  color: var(--text-primary);
+}
+
+.flashcard-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--inspector-muted);
+}
+
+.flashcard-note {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--inspector-muted);
+}
+
+.flashcard-actions.secondary button {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--input-border);
+}
+
 .structure-controls {
   display: flex;
   gap: 0.5rem;
